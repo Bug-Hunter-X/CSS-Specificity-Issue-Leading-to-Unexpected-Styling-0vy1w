@@ -1,0 +1,13 @@
+/* bugSolution.css */
+
+/* Adjust selectors to resolve specificity conflict */
+#myElement {
+  color: blue;
+}
+.myClass {
+  font-size: 16px;
+}
+/*Adding more specific style for desired behavior*/
+#myElement .myClass{
+  color: green;
+}
